@@ -7,7 +7,8 @@
 
 article.dog
 {
-    width: 25vw;
+    width: 23vw;
+    margin-top: 1em;
 }
 
 article.dog>img
@@ -17,7 +18,6 @@ article.dog>img
 
 article.dog .name
 {
-    margin-bottom: 0.25em;
     font-size: 1.25em;
     font-weight: bold;
 }
@@ -26,6 +26,7 @@ article.dog .tag
 {
     background-color: #90ddf0;
     padding: 0.2em 0.5em;
+    margin-top: 0.4rem;
     display: inline-block;
     border-radius: 1em;
     font-size: 0.8em;
