@@ -1,0 +1,43 @@
+body
+{
+    width: 80%;
+    margin: auto;
+    background-color: #f0f0f0;
+    color: #303030;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.spacer
+{
+    width: 90%;
+    margin: auto;
+}
+
+header
+{
+    background-color: #083d77;
+    border-bottom: 3px solid #90ddf0;
+    padding: 2em 0;
+}
+
+header h1
+{
+    margin: 0;
+    color: #f0f0f0;
+}
+
+main
+{
+    background-color: #ffffff;
+}
+
+main h2
+{
+    margin: 0;
+    padding: 1em 0 0;
+}
+
+main>p
+{
+    text-indent: 2em;
+}

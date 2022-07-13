@@ -1,0 +1,32 @@
+#content
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article.dog
+{
+    width: 25vw;
+}
+
+article.dog>img
+{
+    max-width: 100%;
+}
+
+article.dog .name
+{
+    margin-bottom: 0.25em;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+article.dog .tag
+{
+    background-color: #90ddf0;
+    padding: 0.2em 0.5em;
+    display: inline-block;
+    border-radius: 1em;
+    font-size: 0.8em;
+}
