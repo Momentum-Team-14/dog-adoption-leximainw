@@ -11,10 +11,19 @@ article.dog
     margin-top: 1em;
 }
 
-article.dog>img
+article.dog .img-container
 {
-    max-width: 100%;
+    width: 100%;
+    height: 200px;
     border-radius: 1em;
+    overflow: hidden;
+}
+
+article.dog img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 article.dog .name
