@@ -33,12 +33,24 @@ article.dog .name
     margin-left: 1rem;
 }
 
+article.dog ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 article.dog .tag
 {
     background-color: #90ddf0;
-    padding: 0.2em 0.5em;
     margin-top: 0.4rem;
     display: inline-block;
     border-radius: 1em;
     font-size: 0.8em;
+}
+
+article.dog .tag a
+{
+    padding: 0.2em 0.5em;
+    text-decoration: none;
 }
