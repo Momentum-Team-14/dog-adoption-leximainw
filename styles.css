@@ -26,11 +26,28 @@ header h1
     color: #f0f0f0;
 }
 
+body>.column
+{
+    background-color: #ffffff;
+    padding-bottom: 1em;
+}
+
+main h2
+{
+    margin: 0;
+    padding: 1em 0 0;
+}
+
+main>p
+{
+    text-indent: 2em;
+}
+
 footer
 {
     display: flex;
     justify-content: space-between;
-    margin-top: 2em;
+    margin: 2em 1em 0;
 }
 
 footer .img-container
@@ -38,11 +55,15 @@ footer .img-container
     display: block;
     position: relative;
     width: 33%;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 footer .img-container img
 {
-    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 footer .img-container .overlay
@@ -61,20 +82,4 @@ footer .img-container .overlay
     font-size: 2rem;
     font-weight: bold;
     color: #f0f0f0;
-}
-
-main
-{
-    background-color: #ffffff;
-}
-
-main h2
-{
-    margin: 0;
-    padding: 1em 0 0;
-}
-
-main>p
-{
-    text-indent: 2em;
 }
