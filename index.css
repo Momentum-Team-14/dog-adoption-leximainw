@@ -14,6 +14,7 @@ article.dog
 article.dog>img
 {
     max-width: 100%;
+    border-radius: 1em;
 }
 
 article.dog .name
