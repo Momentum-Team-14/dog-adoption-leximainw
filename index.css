@@ -2,13 +2,13 @@
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 article.dog
 {
-    width: 23vw;
-    margin-top: 1em;
+    width: 30%;
+    margin: 1em 0.5rem 0;
 }
 
 article.dog>a
@@ -29,9 +29,33 @@ article.dog>a:hover
 article.dog .img-container
 {
     width: 100%;
-    height: 200px;
+    height: 15vw;
     border-radius: 1em;
     overflow: hidden;
+}
+
+@media(max-width: 60rem)
+{
+    article.dog
+    {
+        width: 45%;
+    }
+    article.dog .img-container
+    {
+        height: 21vw;
+    }
+}
+
+@media(max-width: 40rem)
+{
+    article.dog
+    {
+        width: 90%;
+    }
+    article.dog .img-container
+    {
+        height: 45vw;
+    }
 }
 
 article.dog img
