@@ -43,6 +43,36 @@ main>p
     text-indent: 2em;
 }
 
+.tag-list
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tag-list>li
+{
+    background-color: #90ddf0;
+    margin-top: 0.4rem;
+    display: inline-block;
+    border-radius: 1em;
+    font-size: 0.8em;
+    transition: 0.3s;
+}
+
+.tag-list>li:hover
+{
+    color: blue;
+    background-color: #d1eff8;
+}
+
+.tag-list>li a
+{
+    padding: 0.2em 0.5em;
+    text-decoration: none;
+    color: navy;
+}
+
 footer
 {
     display: flex;

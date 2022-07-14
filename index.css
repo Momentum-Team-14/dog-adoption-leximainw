@@ -78,33 +78,3 @@ article.dog>a:hover .name
 {
     color: black;
 }
-
-article.dog ul
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-article.dog .tag
-{
-    background-color: #90ddf0;
-    margin-top: 0.4rem;
-    display: inline-block;
-    border-radius: 1em;
-    font-size: 0.8em;
-    transition: 0.3s;
-}
-
-article.dog .tag:hover
-{
-    color: blue;
-    background-color: #d1eff8;
-}
-
-article.dog .tag a
-{
-    padding: 0.2em 0.5em;
-    text-decoration: none;
-    color: navy;
-}
