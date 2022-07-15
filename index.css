@@ -22,7 +22,7 @@ article.dog>a
 
 article.dog>a:hover
 {
-    transform: translate(0, -0.5rem);
+    transform: translate(0, -0.5rem) scale(1.025, 1.025);
     filter: drop-shadow(0 0.5rem 4px #00000080);
 }
 
